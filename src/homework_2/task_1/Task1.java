@@ -7,6 +7,6 @@ public class Task1 {
         for ( int i = 0; i < days; i++) {
             km = km + (km * 0.1);
         }
-        System.out.println("Total amount: "+ km + " km");
+        System.out.println("Total amount:  "+ km + " km");
     }
 }
