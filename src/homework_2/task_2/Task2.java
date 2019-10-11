@@ -5,7 +5,7 @@ public class Task2 {
         int ameba = 1;
         int part = 2;
 
-
+// пустая строка не нужна
         for (int i = 0; i < 24; i += 3) {
             ameba *= 2;
             System.out.println("Будет " + ameba + " амеб(ы)");
