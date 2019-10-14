@@ -8,12 +8,12 @@ public class Task_6 {
         int[] arrayNew = new int[array.length];
         int value = 0;
 
-
         for (int i = 0; i < array.length; i++) {
             if (array[i] % 2 == 0) {
                 arrayNew[value] = array[i];
                 value++;
             }
+
         }
 
 
