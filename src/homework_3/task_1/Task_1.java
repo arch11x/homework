@@ -15,8 +15,8 @@ public class Task_1 {
             sum += array[i];
         }
         System.out.println("Сумма чисел массива равна: " + sum);
-        int min = 0;
-        int max = 0;
+        int min = 0; // = array[0]
+        int max = 0; // = array[0] иначе может некорректно работать
         min = array[0];
 
         for (int i = 0; i < array.length; i++) {
@@ -26,12 +26,12 @@ public class Task_1 {
             if (array[i] < min) {
                 min = array[i];
             }
-
+// пустая строка не нужа
         }
 
         System.out.println("Минимальное значение массива: " + min);
         System.out.println("Максимальное значение массива: " + max);
-
-
+// пустая строка не нужа
+// пустая строка не нужа
     }
 }
