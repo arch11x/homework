@@ -2,7 +2,7 @@ package homework_3.task_7;
 
 import java.util.Arrays;
 
-
+// +
 public class Task_7 {
     public static void main(String[] args) {
         int[] array = {1, 5, 8, 3, 2};
@@ -19,7 +19,7 @@ public class Task_7 {
                 }
             }
         }
-
+// пустая строка не нужа
         System.out.println(Arrays.toString(array));
     }
 
