@@ -9,11 +9,11 @@ public class Task_2 {
 
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
-            average = sum / array.length;
-
+            average = sum / array.length; // среднее можно посчитать 1 раз за пределами цикла
+// пустая строка не нужа
         }
         System.out.println("Среднее арифметическое массива: " + average);
-
-
+// пустая строка не нужа
+// пустая строка не нужа
     }
 }
