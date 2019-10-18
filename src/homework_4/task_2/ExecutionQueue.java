@@ -3,7 +3,7 @@ package homework_4.task_2;
 public class ExecutionQueue {
     private static String msg;
     static {
-        msg = "static bloc";
+        msg = "static block";
     }
     {
         msg = "regular init block";
