@@ -4,7 +4,9 @@ import homework_4.task_1.Student;
 
 public class Task_4 {
     public static void main(String[] args) {
+        // people_1 -> noName
         Student people_1 = new Student();
+        // nik
         Student people_2 = new Student("Nik", 212);
         people_1.setText("Hello, Archi");
 
