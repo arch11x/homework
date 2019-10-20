@@ -5,7 +5,7 @@ import java.util.Objects;
 public class Student {
     private String name;
     private int age;
-    static private String text = "Hello from static";
+    static private String text = "Hello from static"; // static поля идут раньше других
 
     public Student() {
         this("Archi", 16);
@@ -26,7 +26,7 @@ public class Student {
 
     public void show() {
         System.out.println("Student name: " + name + " Student age: " + age);
-        System.out.println();
+        System.out.println(); // этот не нужен
     }
 
     @Override
