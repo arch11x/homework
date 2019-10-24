@@ -1,11 +1,15 @@
 package homework_5.task_3;
 
+// поля класса должны быть приватными
 public class Skyscraper implements Interface {
 
+    // думаю это поле не должно быть статичным
     static int numberOfTenants;
+    // думаю это поле не должно быть статичным
     static int numberOfFloors;
     String type;
 
+    // сделай лучше конструктор с аргументами
     public Skyscraper() {
         numberOfFloors = 21;
         numberOfTenants = 100;
@@ -19,7 +23,7 @@ public class Skyscraper implements Interface {
 
     @Override
     public void turnOnTheHeating() {
-
+// пустая строка не нужна
     }
 
     @Override
