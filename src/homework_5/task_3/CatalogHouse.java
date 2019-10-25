@@ -4,10 +4,13 @@ package homework_5.task_3;
 public class CatalogHouse {
     // массив передавай аргументом через конструктор
     // массив должен быть не строк, а домов
+    // private House[] houses;
     private String [] arrayHouse = new String [2];
 
     // сделай конструктор с аргументами
+    // (House[] houses)
     public CatalogHouse()
+        // this.houses = houses;
     {
         arrayHouse[0] = "Vacation house";
         arrayHouse[1] = "Skyscraper";
