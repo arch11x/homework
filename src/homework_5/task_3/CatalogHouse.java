@@ -14,7 +14,8 @@ public class CatalogHouse {
     {
         arrayHouse[0] = "Vacation house";
         arrayHouse[1] = "Skyscraper";
-    } // здесь нужен абзац
+    }
+    // здесь нужен абзац
     public void getArrayHouse() {
         for (int i=0; i< arrayHouse.length; i ++)
         {
