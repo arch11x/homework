@@ -1,5 +1,6 @@
 package homework_7.task_6;
 
+// необходимо было получить массив отфильтрованных слов, а не просто вывести на экран
 public class Task_6 {
     public static void main(String[] args) {
         String[] word = {"Artur", "World", "java", "Windows", "Wrap"};
