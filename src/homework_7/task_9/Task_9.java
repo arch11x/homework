@@ -4,6 +4,7 @@ public class Task_9 {
     public static void main(String[] args) {
         String[] array = {"Car", "Bike", "I love java", "Biology", "Minsk"};
         for (int i = 0; i < array.length; i++) {
+            // 5 в переменную
             if (array[i].length() > 5) {
                 System.out.println(array[i]);
             }
