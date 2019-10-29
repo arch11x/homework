@@ -11,9 +11,11 @@ public class Task_8 {
         carMark[3] = "1.4";
 
         for (int i = 0; i < carMark.length; i++) {
+            // 1.4, 2.0T - в переменную
             if (carMark[i] == "1.4") {
                 carMark[i] = carMark[i].replace(carMark[i], "2.0T");
             }
+            // 1.8, 1.8T - в переменную
             if (carMark[i] == "1.8") {
                 carMark[i] = carMark[i].replace(carMark[i], "1.8Т");
             }
