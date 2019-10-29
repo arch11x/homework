@@ -1,5 +1,6 @@
 package homework_7.task_4;
 
+// нужно было не просто узнать есть или нету, а посчитать кол-во повторений каждого из слов по отдельности
 public class Task_4 {
     public static void main(String[] args) {
         String text = "While major gameplay components are already in place and functioning,\n" +
