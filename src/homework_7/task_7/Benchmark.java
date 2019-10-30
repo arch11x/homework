@@ -1,27 +1,32 @@
 package homework_7.task_7;
 
-public class Benchmark {
+public class Benchmark{
     public static void main(String[] args) {
-        //  у меня не получилось написать Benchmark. Я подойду на уроке.
-        
-        /*
-        int numberOfIterations = 10_000;
-        String symbolToAdd = "A"; 
-        int start;
-        int stop;
-        
-        String string = "";
-        
-        start = System.currentTimeMillis();
-        for(int i = 0; i < numberOfIterations; i++) {
-          string = string + symbolToAdd;
-        }
-        stop = System.currentTimeMillis();
-        System.out.println("Time took for string:" + (stop-start));
-        
-        и так же для StringBuilder и StrungBuffer
+        int counter = 100000;
+        String testString = "Test";
+        String concatString = "test";
 
-        желательно вынести в отдельный метод, а не все писать в main()
-        */
+        long start = System.currentTimeMillis();
+        for (int i = 0; i < counter; i++) {
+            testString = testString.concat(concatString);
+        }
+        long time = System.currentTimeMillis() - start;
+        System.out.println("String; " + time);
+
+        StringBuilder testStringBuilder = new StringBuilder("Test");
+        start = System.currentTimeMillis();
+        for (int i = 0; i < counter; i++) {
+            testStringBuilder.append(concatString);
+        }
+        time = System.currentTimeMillis() - start;
+        System.out.println("StringBuilder; " + time);
+
+        StringBuffer testStringBuffer = new StringBuffer("Test");
+        start = System.currentTimeMillis();
+        for (int i = 0; i < counter; i++) {
+            testStringBuffer.append(concatString);
+        }
+        time = System.currentTimeMillis() - start;
+        System.out.println("StringBuffer; " + time);
     }
 }
