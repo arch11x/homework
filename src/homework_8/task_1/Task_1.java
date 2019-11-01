@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Task_1 {
     public static void main(String[] args) {
-        String string_1 = null;
-        String string_2 = null;
+        String string_1 = null; // плохое название переменной
+        String string_2 = null; // плохое название переменной
         try {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Put first number: ");
-            string_1 = scanner.next();
+            string_1 = scanner.next(); // scanner.nextInt()
             Integer number_1 = Integer.valueOf(string_1);
             System.out.println("Put second number: ");
             string_2 = scanner.next();
