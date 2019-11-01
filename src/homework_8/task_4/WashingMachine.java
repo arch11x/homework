@@ -11,7 +11,7 @@ public class WashingMachine {
             System.out.println("I'm working");
             while (true) { // лучше завести boolean поле и на напрямую true
                 if (System.currentTimeMillis() % 2 == 1) {
-                    throw new MyException("Error 404;("); // 404 это код спец ошибки из http и используется для других целей 
+                    throw new MyException("Error;(");
                 }
             }
         } catch (MyException e) {
