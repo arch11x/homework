@@ -11,7 +11,7 @@ public class Text {
     public static void main(String[] args) {
         try (FileWriter fw = new FileWriter(FILE_PATH, true)) {
             for (int i = 0; i < 10000; i++) {
-                fw.write("My name is Artur =))");
+                fw.write("My name is Artur =)");
                 fw.write("\n");
             }
 
