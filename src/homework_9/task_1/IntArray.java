@@ -4,6 +4,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
 
+// +
 public class IntArray {
 
     private static final String FILE_PATH = "src/homework_9/task_1/output";
