@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+// +
 public class ReadAndOutputText {
 
     private static final String FILE_PATH = "src/homework_9/task_2/output";
