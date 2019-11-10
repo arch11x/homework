@@ -2,6 +2,7 @@ package homework_9.task_4;
 
 import java.io.*;
 
+// Object - лучше не называй файлы такими именами. Класс Object есть в java
 public class Object {
     private static final String FILE_NAME = "src/homework_9/task_4/output";
 
@@ -33,9 +34,16 @@ public class Object {
         }
     }
 
+    // аргумент object никак не используется
     public static void readObjectFromFile(Employee object, String fileName) {
         try (FileInputStream fis = new FileInputStream(fileName);
              ObjectInputStream obis = new ObjectInputStream(fis)) {
+            // object = (Employee) obis.readObject();
+            // а лучше
+            /* Employee employee = (Employee) obis.readObject();
+            return employee;
+            а на экран вывести в методе мейн
+            */
             Object obj = (Object) obis.readObject();
             System.out.println(obj);
         } catch (ClassNotFoundException | FileNotFoundException e) {
