@@ -10,11 +10,11 @@ public class Text {
 
     public static void main(String[] args) {
         try (FileWriter fw = new FileWriter(FILE_PATH, true)) {
-            for (int i = 0; i < 10000; i++) {
+            for (int i = 0; i < 10000; i++) { // 10_000 в переменную
                 fw.write("My name is Artur =)");
                 fw.write("\n");
             }
-
+// пустая строка не нужна
             fw.flush();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
