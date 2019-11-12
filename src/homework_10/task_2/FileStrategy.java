@@ -40,7 +40,7 @@ public enum FileStrategy {
             String newFilePath = file.getAbsolutePath().replace(file.getName(), "") + fileName;
             File resultFile = new File(newFilePath);
             if (file.renameTo(resultFile)) {
-                System.out.println("File renamed");
+                System.out.println("File rename");
             } else {
                 System.out.println("The file can't be renamed");
             }
