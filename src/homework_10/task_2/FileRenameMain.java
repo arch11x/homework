@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
+// +
 public class FileRenameMain {
     private static final String FILE_PATH_JAVA = "src/homework_10/task_2/HELloFroMjaVa";
     private static final String FILE_PATH_WORLD = "src/homework_10/task_2/MynaMEIsArtUr";
