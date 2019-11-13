@@ -16,7 +16,7 @@ public class Generic<T> {
     }
 
     public static void main(String[] args) {
-        Generic<Integer> iOb;
+        Generic<Integer> iOb; // Generic<Integer> iOb = iOb = new Generic<>(141);
         iOb = new Generic<>(141);
         iOb.showType();
         int value = iOb.getOb();
