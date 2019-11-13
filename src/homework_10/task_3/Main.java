@@ -1,5 +1,6 @@
 package homework_10.task_3;
 
+// +
 public class Main {
     public static void main(String[] args) {
         Car[] cars = new Car[]{new BMW(2674), new Lada(2514)};
