@@ -2,6 +2,7 @@ package homework_10.task_2;
 
 import java.io.File;
 
+// FileNameStrategy
 public enum FileStrategy {
     NAME_LOWER_CASE {
         @Override
