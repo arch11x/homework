@@ -3,6 +3,7 @@ package homework_11.task_3;
 import java.util.ArrayList;
 import java.util.List;
 
+// +
 public class RemoveElements {
     public static void main(String[] args) {
         List<String> firstListName = new ArrayList<>();
