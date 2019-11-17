@@ -3,6 +3,7 @@ package homework_11.task_4;
 import java.util.ArrayList;
 import java.util.List;
 
+// +
 public class RetainElement {
     public static void main(String[] args) {
         List<String> tomFavoriteColors = new ArrayList<>();
