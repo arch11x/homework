@@ -14,7 +14,7 @@ public class Checklist {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your name: ");
-        boolean Name = true;
+        boolean Name = true; // Name -> name, почему имя переменной name, а тип булеан, не сходится
         while (Name) {
             String name = scanner.nextLine();
             if (strings.contains(name)) {
