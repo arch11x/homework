@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+// +
 public class ArrayListMain {
     private final static Integer SIZE = 100;
 
