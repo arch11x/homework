@@ -11,7 +11,7 @@ public class PredicateMain {
         List<User> users = new ArrayList<>();
         users.add(new User("Kirill"));
         users.add(new User("Artur"));
-        users.add(new User("Petr "));
+        users.add(new User("Petr"));
         users.add(new User("Dima"));
 
         System.out.println("Original list: " + users);
