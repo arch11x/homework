@@ -7,6 +7,7 @@ public class ParseMain {
         System.out.println(result);
     }
 
+    //show -> parse
     private static String show(Parse parse, int value) {
         return parse.show(value);
     }
