@@ -17,7 +17,7 @@ public class PhoneMap {
         phones.add(new Phone("Huawei", 515));
 
         Map<String, Long> grouping = phones.stream()
-                .collect(Collectors.groupingBy(Phone::getModel, Collectors.counting()));
+                .collect(Collectors.groupingBy(Phone::getModel, Collectors.counting( )));
 
         for (Map.Entry<String, Long> entry : grouping.entrySet()) {
             System.out.println(entry);
