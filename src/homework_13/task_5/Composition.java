@@ -20,6 +20,7 @@ public class Composition {
         Optional<Integer> compInt = numbers.stream()
                 .limit(5)
                 .reduce((x, y) -> x * y);
+                // ты распечатаешь optional, который может быть пустым, добаврь проверку first.isPresent()
         System.out.println(compInt);
     }
 }
