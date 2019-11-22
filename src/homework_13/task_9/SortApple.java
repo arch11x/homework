@@ -15,7 +15,7 @@ public class SortApple {
         phones.add(new Phone("Apple", 53));
         phones.add(new Phone("HTC", 515));
 
-
+        // твой вариант не оптимальный, дважды нужно итерироваться по коллекции. На лекции я показывал вариант с partitioning, посмотри его
         List<Phone> appleGroup = phones.stream()
                 .filter(phone -> phone.getModel().contains("Apple"))
                 .collect(Collectors.toList());
