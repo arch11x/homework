@@ -19,6 +19,7 @@ public class MinPrice {
         System.out.println(phones);
 
         Optional<Phone> min = phones.stream().min(Comparator.comparing(Phone::getPrice));
+                // ты распечатаешь optional, который может быть пустым, добаврь проверку first.isPresent()
         System.out.println("Min price: " + min);
     }
 }
