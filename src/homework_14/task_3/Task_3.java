@@ -23,9 +23,10 @@ public class Task_3 {
         mapSecond.put("Second", listSecond);
         System.out.println(mapSecond);
 
+        // у тебя программа работает некорректно, попробуй во вторую мапу заменить "Second" -> "First" и посмотри результат
         Map<String, List<Integer>> mapthird = new HashMap<>(mapFirst);
         for (int i = 0; i < mapSecond.size(); i++) {
-            int finalI = i;
+            int finalI = i; // нужна ли эта переменная?
             mapSecond.forEach((key, value) -> mapthird.merge(key, value, (v1, v2) -> Collections.singletonList(v1.get(finalI) + v2.get(finalI))));
         }
         System.out.println(mapthird);
