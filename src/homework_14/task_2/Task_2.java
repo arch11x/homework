@@ -11,9 +11,9 @@ import java.util.stream.Stream;
 
 public class Task_2 {
     public static void main(String[] args) throws IOException {
-        String text = "src/homework_14/task_2/First_text";
-        String regex = "pancakes";
-        String newText = "src/homework_14/task_2/Second_text";
+        String text = "src/homework_14/task_2/First_text";// константа
+        String regex = "pancakes";// константа
+        String newText = "src/homework_14/task_2/Second_text";// константа
         Path path = Paths.get(text);
         Path pathNew = Paths.get(newText);
         searchForMatches(path, pathNew, regex);
@@ -30,6 +30,7 @@ public class Task_2 {
                 fos.write(line.get(i).getBytes());
             }
             fos.flush();
+            // fos.close;
         }
     }
 }
