@@ -11,6 +11,7 @@ public class Task_5 {
         cats.add(new Cat("Tom"));
         cats.add(new Cat("Max"));
         cats.add(new Cat("Mark"));
+        // cats.add(null); - в этом суть задания
         serializableObject(path, cats);
         deserializableObject(path);
     }
@@ -23,6 +24,8 @@ public class Task_5 {
         oos.close();
     }
 
+    // <cats> - это зачем?
+        // throws IOException, ClassNotFoundException - у тебя есть блок catch  с этим исключения, throws надо убрать
     public static <cats> void deserializableObject(String path) throws IOException, ClassNotFoundException {
         FileInputStream fis = new FileInputStream(path);
         ObjectInputStream ois = new ObjectInputStream(fis);
