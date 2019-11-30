@@ -1,5 +1,6 @@
 package homework_15.entity;
 
+// Subjects -> Subject
 public class Subjects {
     private String subName;
     private int mark;
