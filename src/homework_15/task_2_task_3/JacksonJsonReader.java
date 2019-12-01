@@ -14,6 +14,8 @@ import java.util.Comparator;
 import java.util.List;
 
 public class JacksonJsonReader {
+    //абсолютные пути зло
+    //файлы json без расширений - стоит добавить
     private static final String FOLDER_PATH = "C:\\Users\\Artur Kuznetcov\\IdeaProjects\\homework1\\resource\\json\\Students\\Student";
     private static final String NEW_FILE_PATH = "homework_15/task_2_task_3/List";
     private static final String NEW_JSON_FILE_PATH = "C:\\Users\\Artur Kuznetcov\\IdeaProjects\\homework1\\resource\\json\\Students\\output";
