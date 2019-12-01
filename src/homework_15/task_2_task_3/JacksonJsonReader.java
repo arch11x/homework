@@ -54,7 +54,7 @@ public class JacksonJsonReader {
     private static void writeListToFile(String fileName, List<Student> students) {
         try (FileWriter fileWriter = new FileWriter(new File(NEW_FILE_PATH));
              BufferedWriter buff = new BufferedWriter(fileWriter)) {
-            buff.write(String.valueOf(students));
+            buff.write(String.valueOf(students)); // не, записывать объект как строку вообще грустная история, не надо так делать
             buff.flush();
             System.out.println("File has been successfully written");
         } catch (IOException e) {
