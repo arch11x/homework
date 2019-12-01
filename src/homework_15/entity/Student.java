@@ -4,13 +4,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
-// +
 public class Student {
     private String id;
     private String name;
     private String surname;
     private String faculty;
-    @JsonProperty("favSubject")
+    @JsonProperty("favSubject") // параметр в аннотанции повторяет название поля -> аннотация не нужна
     private List<Subjects> favSubject;
     private int groupNum;
 
