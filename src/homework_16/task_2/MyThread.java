@@ -1,7 +1,7 @@
 package homework_16.task_2;
 
 public class MyThread implements Runnable {
-    private static final int ITERATIONS = 20;
+    private static final int ITERATIONS = 20; // лучше через конструктор
 
     @Override
     public void run() {
