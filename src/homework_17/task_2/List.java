@@ -3,7 +3,7 @@ package homework_17.task_2;
 import java.util.ArrayList;
 import java.util.OptionalDouble;
 
-
+// +
 public class List {
     public static void main(String[] args) {
         ArrayList<Integer> number = new ArrayList<>();
