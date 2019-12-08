@@ -1,7 +1,7 @@
 package homework_17.task_1;
 
 // почему оно считает от 0-9, а потом бросает ошибку? но все же завершается
-
+// В классе Garage решение проблемы
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         Garage addThread = new Garage();
