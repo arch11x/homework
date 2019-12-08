@@ -9,6 +9,8 @@ public class Garage {
     private ReentrantLock locker = new ReentrantLock();
 
     public void addToList(String string) {
+        // https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/Lock.html#tryLock()
+        // у тебя не совсем корректно написана логика, if должен быть за пределами try, по ссылке выше пример
         try {
             boolean isLocked = locker.tryLock();
             if (isLocked) {
