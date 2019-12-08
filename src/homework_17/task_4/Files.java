@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.concurrent.Callable;
 
+// Integer -> объект с именем файла и кол-вом слов
 public class Files implements Callable<Integer> {
     private File file;
 
