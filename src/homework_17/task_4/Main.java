@@ -9,6 +9,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 // не видит директорий файлов
 public class Main {
+    // путь к файлу через '/', а не через точку
     private static final String DIR_PATH = "src/homework_17.task_4.files";
 
     public static void main(String[] args) {
